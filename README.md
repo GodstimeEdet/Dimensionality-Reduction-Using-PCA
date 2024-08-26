@@ -16,6 +16,7 @@ To summarize the process of building and evaluating two machine learning models 
    - **Model Training**: Next, you train a Random Forest Classifier, which is an ensemble method that creates a "forest" of decision trees and aggregates their predictions for better accuracy and robustness. This model is often more powerful than logistic regression, especially in handling non-linear relationships.
    - **Model Evaluation**: Similar to Logistic Regression, you evaluate the Random Forest model on the test set. You compare its performance metrics with those of the Logistic Regression model.
 
+
 ### 4. **Comparison of Models**
    - **Performance Metrics**: You compare the accuracy scores and other classification metrics between the two models. The model with higher accuracy and better precision/recall for key classes is generally preferred.
    - **Confusion Matrix**: By analyzing the confusion matrix for each model, you can see where the models are making errors, such as misclassifying certain types of glass. This helps in understanding the strengths and weaknesses of each model.
